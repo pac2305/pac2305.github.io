@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  box-sizing: border-box;
+}
+
+.lg {
+  background-image: url('./logo.png');
+  background-color: white;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.p-res {
+  text-align: center;
+}
+
+.tb {
+  position: relative;
+  width: 75%;
+  border: 1px solid white;
+  left: 12%;
+}
+
+.tn {
+  width: 100%;
+}
+
+.zz {
+  background-color: green;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+
+.nn {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 50px;
+  text-align: center;
+}
+
+.nn div {
+  border: 1px solid white;
+}
+
+.nn>* {
+  flex: 1 33%;
+}
+
+.nn>div:nth-child(2n) {
+  background-color: black;
+}
+
+.nn>div:nth-child(2n+1) {
+  background-color: red;
+}
+
+.nn > div:hover, .zz:hover {
+  background-color: rgba(137, 43, 226, 0.342);
+}
